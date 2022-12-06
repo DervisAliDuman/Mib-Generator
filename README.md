@@ -41,11 +41,12 @@ Bilindiği üzere genelde dosya okuma işlemleri yoğun olduğu durumda hata pay
 
 
 Genel structure yapısı:
-
+![image](https://user-images.githubusercontent.com/80786294/206007427-f157fe7b-9444-4ea1-b984-2b69bbff61cf.png)
 
 Görüldüğü üzere iç içe bir yapı var ve her biri birbirini linked list olarak depolamakta. Herhangi bir random acccess gerekmesi durumunda mecburen tek tek traverse etmen gerekcek. (Bunu ben seçmedim benden istendi)
 
 Structure’larda traverse yapmak (dolanmak) istersen:
+![image](https://user-images.githubusercontent.com/80786294/206007524-14bea6ed-d614-466d-8b43-109448145cd7.png)
 
 Burada ki kodda görceğin üzere (source kodda mevcut), her birinin iterator’ü aracılığıyla iç içe while kullanarak ilerlenebilmektedir.
 
