@@ -41,6 +41,7 @@ Bilindiği üzere genelde dosya okuma işlemleri yoğun olduğu durumda hata pay
 
 
 Genel structure yapısı:
+
 ![image](https://user-images.githubusercontent.com/80786294/206007427-f157fe7b-9444-4ea1-b984-2b69bbff61cf.png)
 
 Görüldüğü üzere iç içe bir yapı var ve her biri birbirini linked list olarak depolamakta. Herhangi bir random acccess gerekmesi durumunda mecburen tek tek traverse etmen gerekcek. (Bunu ben seçmedim benden istendi)
